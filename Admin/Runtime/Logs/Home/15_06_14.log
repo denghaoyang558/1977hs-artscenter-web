@@ -1,0 +1,3118 @@
+[ 2015-06-14T16:30:20+08:00 ] ::1 /1977hs/admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2015-06-14T16:30:20+08:00 ] ::1 /1977hs/admin.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2015-06-14T16:30:25+08:00 ] ::1 /1977hs/admin.php/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0343s ]
+SQL: SELECT * FROM `hs_admin` WHERE `loginname` = 'admin' LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `hs_admin` SET `last_login_time`='2015-06-14 16:30:25' WHERE `id` = 1 [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2015-06-14T16:30:26+08:00 ] ::1 /1977hs/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001144s ]
+
+[ 2015-06-14T16:30:26+08:00 ] ::1 /1977hs/admin.php/Webinfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000491s ]
+
+[ 2015-06-14T17:07:31+08:00 ] ::1 /1977hs/admin.php/Login/loginout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000383s ]
+
+[ 2015-06-14T17:07:32+08:00 ] ::1 /1977hs/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2015-06-14T17:07:32+08:00 ] ::1 /1977hs/admin.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004909s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2015-06-14T17:07:51+08:00 ] ::1 /1977hs/admin.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006213s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2015-06-14T17:07:54+08:00 ] ::1 /1977hs/admin.php/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `hs_admin` WHERE `loginname` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `hs_admin` SET `last_login_time`='2015-06-14 17:07:53' WHERE `id` = 1 [ RunTime:0.0445s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2015-06-14T17:07:55+08:00 ] ::1 /1977hs/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2015-06-14T17:07:55+08:00 ] ::1 /1977hs/admin.php/Webinfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038410s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2015-06-14T17:07:56+08:00 ] ::1 /1977hs/admin.php/Login/loginout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+
+[ 2015-06-14T17:07:56+08:00 ] ::1 /1977hs/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000655s ]
+
+[ 2015-06-14T17:07:56+08:00 ] ::1 /1977hs/admin.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2015-06-14T17:08:08+08:00 ] ::1 /1977hs/admin.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000434s ]
+
+[ 2015-06-14T17:08:16+08:00 ] ::1 /1977hs/admin.php/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_admin` WHERE `loginname` = 'admin' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `hs_admin` SET `last_login_time`='2015-06-14 17:08:16' WHERE `id` = 1 [ RunTime:0.0512s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005714s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2015-06-14T17:08:17+08:00 ] ::1 /1977hs/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007889s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2015-06-14T17:08:17+08:00 ] ::1 /1977hs/admin.php/Webinfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000428s ]
+
+[ 2015-06-14T17:08:26+08:00 ] ::1 /1977hs/admin.php/Login/loginout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+
+[ 2015-06-14T17:08:26+08:00 ] ::1 /1977hs/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2015-06-14T17:08:26+08:00 ] ::1 /1977hs/admin.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000332s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2015-06-14T17:08:55+08:00 ] ::1 /1977hs/admin.php/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000419s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `hs_admin` WHERE `loginname` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `hs_admin` SET `last_login_time`='2015-06-14 17:08:55' WHERE `id` = 1 [ RunTime:0.0726s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2015-06-14T17:08:56+08:00 ] ::1 /1977hs/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2015-06-14T17:08:56+08:00 ] ::1 /1977hs/admin.php/Webinfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001685s ]
+
+[ 2015-06-14T17:08:57+08:00 ] ::1 /1977hs/admin.php/Login/loginout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005916s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2015-06-14T17:08:58+08:00 ] ::1 /1977hs/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000408s ]
+
+[ 2015-06-14T17:08:58+08:00 ] ::1 /1977hs/admin.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2015-06-14T17:09:15+08:00 ] ::1 /1977hs/admin.php/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hs_admin` WHERE `loginname` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `hs_admin` SET `last_login_time`='2015-06-14 17:09:15' WHERE `id` = 1 [ RunTime:0.0469s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000393s ]
+
+[ 2015-06-14T17:09:16+08:00 ] ::1 /1977hs/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006467s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2015-06-14T17:09:16+08:00 ] ::1 /1977hs/admin.php/Webinfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2015-06-14T17:09:17+08:00 ] ::1 /1977hs/admin.php/Login/loginout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000363s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000401s ]
+
+[ 2015-06-14T17:09:18+08:00 ] ::1 /1977hs/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000420s ]
+
+[ 2015-06-14T17:09:18+08:00 ] ::1 /1977hs/admin.php/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2015-06-14T17:09:20+08:00 ] ::1 /1977hs/admin.php/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `hs_admin` WHERE `loginname` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `hs_admin` SET `last_login_time`='2015-06-14 17:09:20' WHERE `id` = 1 [ RunTime:0.0272s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2015-06-14T17:09:21+08:00 ] ::1 /1977hs/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2015-06-14T17:09:22+08:00 ] ::1 /1977hs/admin.php/Webinfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2015-06-14T17:09:25+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2015-06-14T17:14:11+08:00 ] ::1 /1977hs/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000361s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000332s ]
+
+[ 2015-06-14T17:14:11+08:00 ] ::1 /1977hs/admin.php/Webinfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2015-06-14T17:14:12+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2015-06-14T17:15:10+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000308s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004364s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2015-06-14T17:15:50+08:00 ] ::1 /1977hs/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006813s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2015-06-14T17:15:50+08:00 ] ::1 /1977hs/admin.php/Webinfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2015-06-14T17:15:52+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2015-06-14T17:15:53+08:00 ] ::1 /1977hs/admin.php/Index/changePasswordHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+
+[ 2015-06-14T17:16:00+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2015-06-14T17:16:01+08:00 ] ::1 /1977hs/admin.php/Index/changePasswordHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+
+[ 2015-06-14T17:16:07+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000419s ]
+
+[ 2015-06-14T17:16:28+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004833s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2015-06-14T17:16:33+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2015-06-14T17:19:29+08:00 ] ::1 /1977hs/admin.php/Index/changePasswordHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+
+[ 2015-06-14T17:20:02+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2015-06-14T17:20:06+08:00 ] ::1 /1977hs/admin.php/Index/changePasswordHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+
+[ 2015-06-14T17:20:39+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000435s ]
+
+[ 2015-06-14T17:20:53+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2015-06-14T17:22:02+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2015-06-14T17:22:57+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000421s ]
+
+[ 2015-06-14T17:23:15+08:00 ] ::1 /1977hs/admin.php/Index/changePasswordHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000399s ]
+
+[ 2015-06-14T17:24:22+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000440s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2015-06-14T17:24:25+08:00 ] ::1 /1977hs/admin.php/Index/changePasswordHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+
+[ 2015-06-14T17:24:27+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000366s ]
+
+[ 2015-06-14T17:27:01+08:00 ] ::1 /1977hs/admin.php/Index/changePasswordHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+
+[ 2015-06-14T17:27:04+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2015-06-14T17:29:41+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000407s ]
+
+[ 2015-06-14T17:29:44+08:00 ] ::1 /1977hs/admin.php/Index/changePasswordHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000454s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004233s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+
+[ 2015-06-14T17:30:09+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000398s ]
+
+[ 2015-06-14T17:30:11+08:00 ] ::1 /1977hs/admin.php/Index/changePasswordHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+
+[ 2015-06-14T17:30:29+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000409s ]
+
+[ 2015-06-14T17:30:31+08:00 ] ::1 /1977hs/admin.php/Index/changePasswordHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+
+[ 2015-06-14T17:31:25+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005748s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2015-06-14T17:31:28+08:00 ] ::1 /1977hs/admin.php/Index/changePasswordHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000313s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005746s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+
+[ 2015-06-14T17:31:35+08:00 ] ::1 /1977hs/admin.php/Index/changePasswordHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hs_admin` WHERE `loginname` = '1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+
+[ 2015-06-14T17:31:38+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006104s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006165s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2015-06-14T17:31:51+08:00 ] ::1 /1977hs/admin.php/Index/changePasswordHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `hs_admin` WHERE `loginname` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2015-06-14T17:35:39+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000437s ]
+
+[ 2015-06-14T17:35:46+08:00 ] ::1 /1977hs/admin.php/Index/changePasswordHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hs_admin` WHERE `loginname` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2015-06-14T17:37:47+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000352s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000392s ]
+
+[ 2015-06-14T17:37:55+08:00 ] ::1 /1977hs/admin.php/Index/changePasswordHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `hs_admin` WHERE `loginname` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `hs_admin` SET `loginname`='admin',`password`='d552c872517b2066e7f3a30db05cdf1c' WHERE `id` = 1 [ RunTime:0.0510s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005531s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2015-06-14T17:37:56+08:00 ] ::1 /1977hs/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2015-06-14T17:37:56+08:00 ] ::1 /1977hs/admin.php/Webinfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2015-06-14T17:38:49+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2015-06-14T17:38:55+08:00 ] ::1 /1977hs/admin.php/Index/changePasswordHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hs_admin` WHERE `loginname` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+
+[ 2015-06-14T17:39:05+08:00 ] ::1 /1977hs/admin.php/Index/changePasswordHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `hs_admin` WHERE `loginname` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `hs_admin` SET `loginname`='admin',`password`='a66abb5684c45962d887564f08346e8d' WHERE `id` = 1 [ RunTime:0.0490s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004891s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2015-06-14T17:39:06+08:00 ] ::1 /1977hs/admin.php/Webinfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2015-06-14T17:39:08+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2015-06-14T17:39:28+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2015-06-14T17:39:34+08:00 ] ::1 /1977hs/admin.php/Index/changePasswordHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hs_admin` WHERE `loginname` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `hs_admin` SET `loginname`='admin',`password`='a66abb5684c45962d887564f08346e8d' WHERE `id` = 1 [ RunTime:0.0284s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+
+[ 2015-06-14T17:40:14+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2015-06-14T17:40:20+08:00 ] ::1 /1977hs/admin.php/Index/changePasswordHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `hs_admin` WHERE `loginname` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `hs_admin` SET `loginname`='admin',`password`='a66abb5684c45962d887564f08346e8d' WHERE `id` = 1 [ RunTime:0.0468s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+
+[ 2015-06-14T17:40:38+08:00 ] ::1 /1977hs/admin.php/Index/changePasswordHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004838s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000319s ]
+
+[ 2015-06-14T17:40:46+08:00 ] ::1 /1977hs/admin.php/Index/changePasswordHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000353s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_admin` WHERE `loginname` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `hs_admin` SET `loginname`='admin',`password`='d552c872517b2066e7f3a30db05cdf1c' WHERE `id` = 1 [ RunTime:0.0412s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2015-06-14T17:40:47+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2015-06-14T17:40:56+08:00 ] ::1 /1977hs/admin.php/Index/changePasswordHandle.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hs_admin` WHERE `loginname` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `hs_admin` SET `loginname`='admin',`password`='a66abb5684c45962d887564f08346e8d' WHERE `id` = 1 [ RunTime:0.0500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2015-06-14T17:40:57+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2015-06-14T17:40:59+08:00 ] ::1 /1977hs/admin.php/Visitor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2015-06-14T17:41:00+08:00 ] ::1 /1977hs/admin.php/Webinfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000384s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2015-06-14T17:42:15+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000357s ]
+
+[ 2015-06-14T17:42:20+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `hs_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2015-06-14T17:43:10+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hs_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000375s ]
+
+[ 2015-06-14T17:43:12+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `hs_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2015-06-14T17:46:22+08:00 ] ::1 /1977hs/admin.php/Visitor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2015-06-14T17:46:23+08:00 ] ::1 /1977hs/admin.php/Index/changePassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000045s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `hs_admin` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `hs_admin` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2015-06-14T18:11:06+08:00 ] ::1 /1977hs/admin.php/Visitor/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000147s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2015-06-14T18:14:00+08:00 ] ::1 /1977hs/admin.php/Homepage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022127s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000686s ]
+
+[ 2015-06-14T18:14:04+08:00 ] ::1 /1977hs/admin.php/Webinfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007424s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2015-06-14T18:14:05+08:00 ] ::1 /1977hs/admin.php/Homepage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2015-06-14T18:47:42+08:00 ] ::1 /1977hs/admin.php/Homepage/add.html?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2015-06-14T18:47:55+08:00 ] ::1 /1977hs/admin.php/Homepage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2015-06-14T18:48:20+08:00 ] ::1 /1977hs/admin.php/Homepage/add.html?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2015-06-14T18:49:18+08:00 ] ::1 /1977hs/admin.php/Homepage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2015-06-14T19:00:11+08:00 ] ::1 /1977hs/admin.php/Homepage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000450s ]
+
+[ 2015-06-14T19:00:12+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+
+[ 2015-06-14T19:00:16+08:00 ] ::1 /1977hs/admin.php/Homepage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2015-06-14T19:00:17+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2015-06-14T19:01:30+08:00 ] ::1 /1977hs/admin.php/Homepage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2015-06-14T19:01:32+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2015-06-14T19:02:11+08:00 ] ::1 /1977hs/admin.php/Homepage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000416s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2015-06-14T19:02:12+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000432s ]
+
+[ 2015-06-14T19:04:33+08:00 ] ::1 /1977hs/admin.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2015-06-14T19:04:33+08:00 ] ::1 /1977hs/admin.php/Webinfo/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000448s ]
+
+[ 2015-06-14T19:04:36+08:00 ] ::1 /1977hs/admin.php/Homepage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000441s ]
+
+[ 2015-06-14T19:04:37+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047760s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2015-06-14T19:05:21+08:00 ] ::1 /1977hs/admin.php/Homepage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000365s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007249s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000462s ]
+
+[ 2015-06-14T19:05:22+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2015-06-14T19:05:28+08:00 ] ::1 /1977hs/admin.php/Homepage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2015-06-14T19:05:29+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2015-06-14T19:10:27+08:00 ] ::1 /1977hs/admin.php/Homepage/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054984s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2015-06-14T19:10:28+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html?type=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2015-06-14T19:12:31+08:00 ] ::1 /1977hs/admin.php/Homepage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024122s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024181s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2015-06-14T19:12:38+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000418s ]
+
+[ 2015-06-14T19:13:15+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2015-06-14T19:13:20+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000352s ]
+
+[ 2015-06-14T19:13:23+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2015-06-14T19:13:42+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2015-06-14T19:15:37+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2015-06-14T19:15:45+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2015-06-14T19:16:12+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2015-06-14T19:22:22+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011223s ]
+
+[ 2015-06-14T19:23:42+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2015-06-14T19:23:44+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006697s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2015-06-14T19:24:54+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000404s ]
+
+[ 2015-06-14T19:24:55+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005187s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000412s ]
+
+[ 2015-06-14T19:25:19+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000373s ]
+
+[ 2015-06-14T19:25:23+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2015-06-14T19:25:24+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000400s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000390s ]
+
+[ 2015-06-14T19:25:25+08:00 ] ::1 /1977hs/admin.php/Homepage/add_left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 29 行.
+NOTIC: [8] Use of undefined constant WEB_ROOT - assumed 'WEB_ROOT' /Applications/XAMPP/xamppfiles/htdocs/1977hs/Admin/Home/Conf/config.php 第 31 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+

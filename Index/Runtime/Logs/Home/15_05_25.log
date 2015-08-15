@@ -1,0 +1,30 @@
+[ 2015-05-25T00:42:40+08:00 ] ::1 /1977hs/index.php/Index/Consultus.html
+ERR: 非法操作:Consultus
+
+[ 2015-05-25T00:42:53+08:00 ] ::1 /1977hs/index.php/Consultus/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2015-05-25T00:52:24+08:00 ] ::1 /1977hs/index.php/Consultus/page1.html
+ERR: 非法操作:page1
+
+[ 2015-05-25T08:43:17+08:00 ] ::1 /1977hs/index.php/Strength/strength.html
+ERR: 非法操作:strength
+
+[ 2015-05-25T08:44:03+08:00 ] ::1 /1977hs/index.php/Strength/strength.html
+ERR: 非法操作:strength
+
+[ 2015-05-25T08:49:07+08:00 ] ::1 /1977hs/index.php/Index/strength.html
+ERR: 非法操作:strength
+
+[ 2015-05-25T08:52:01+08:00 ] ::1 /1977hs/index.php/Aboutus/index.html
+ERR: 无法加载控制器:Aboutus
+
+[ 2015-05-25T08:52:53+08:00 ] ::1 /1977hs/index.php/Index/Consultus.html
+ERR: 非法操作:Consultus
+
+[ 2015-05-25T08:54:48+08:00 ] ::1 /1977hs/index.php/Consultus/page1.html
+ERR: 非法操作:page1
+
+[ 2015-05-25T08:55:59+08:00 ] ::1 /1977hs/index.php/Consultus/page1.html
+ERR: 非法操作:page1
+

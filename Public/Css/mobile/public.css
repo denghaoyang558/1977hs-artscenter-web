@@ -1,0 +1,14 @@
+html,body{margin:0px;padding:0;border:0;height:100%;width:100%}
+body,p,h1,h2{margin:0;padding:0;font-weight: normal;text-shadow:none;font-size: 1em;}
+a:link,a:visited,a:hover,a:active{text-decoration:none;}
+ul,ol{list-style-type:none;}
+img{border:none;}
+i,em{font-style:normal;}
+input{border: none;outline: none;}
+button{outline: none;border: none;}
+.left{float:left;}
+.right{float:right;}
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+.hide{display: none;}

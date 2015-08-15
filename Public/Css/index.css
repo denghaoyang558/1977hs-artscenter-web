@@ -1,0 +1,411 @@
+/*
+ * Globals
+ */
+
+body {
+  font-family: "Microsoft YaHei";
+  color: #f6e6c8;
+  padding: 0px;
+  margin: 0px;
+  background-color: #c03111;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-family: SimSun,"宋体";
+  color: #f6e6c8;
+}
+
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+
+/*
+ * Masthead for nav
+ */
+
+.head-top-masthead {
+  background-color: #c03111;
+  border-bottom:solid 1px #ac2c0f;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Nav links */
+.head-top-nav-item {
+  position: relative;
+  display: inline-block;
+  padding-top: 15px;
+  padding-bottom: 13px;
+  font-weight: bolder;
+  font-size: 16px;
+  color: #f6e6c8;
+}
+.head-top-nav-item:hover,
+.head-top-nav-item:focus {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* Nav links */
+.head-top-nav-item-right {
+  position: relative;
+  display: inline-block;
+  margin-top: 8px;
+  margin-left: 8px;
+  font-weight: bolder;
+  color: #f6e6c8;
+  float:right;
+  text-align:right;
+}
+.head-top-nav-item-right a:hover,
+.head-top-nav-item-right a:focus {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.head-top-nav .active {
+  color: #fff;
+}
+.head-top-nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
+
+
+/*bottom*/
+.head-bottom-masthead {
+  background-color: #c03111;
+  border-bottom:solid 1px #ac2c0f;
+}
+
+/* Nav links */
+.head-bottom-nav-item {
+  position: relative;
+  display: inline-block;
+  padding-top: 15px;
+  padding-bottom: 13px;
+  font-weight: bolder;
+  font-size: 15px;
+  color: #f6e6c8;
+}
+.head-bottom-nav-item:hover,
+.head-bottom-nav-item:focus {
+  color: #f6e6c8;
+  text-decoration: none;
+}
+
+/* Nav links */
+.head-bottom-nav-item-right {
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 10px;
+  font-weight: bolder;
+  color: #f6e6c8;
+  float:right;
+  text-align:right;
+}
+.head-bottom-nav-item-right:hover,
+.head-bottom-nav-item-right:focus {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.head-bottom-nav .active {
+  color: #fff;
+}
+.head-bottom-nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
+/*
+ * Blog name and description
+ */
+
+.head-top-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.head-top-title {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 60px;
+  font-weight: normal;
+}
+.head-top-description {
+  font-size: 20px;
+  color: #999;
+}
+
+
+/*
+ * Main column and sidebar layout
+ */
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Sidebar modules for boxing content */
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 60px;
+}
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #999;
+}
+
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.content{
+  background-color: #c03111;
+}
+
+img{
+  padding: 0px;
+  margin: 0 auto;
+}
+
+.center{
+  margin:auto;
+  text-align: center;
+}
+
+.middle{
+  margin-top: 120px;
+}
+
+.red{
+  background-color: #c03111;
+}
+
+.rectangle{
+  width: 165px;
+  height: 53px;
+  border: #f6e6c8 2px solid;
+  background-color: #c03111;
+  color: #f6e6c8;
+  padding: 6px;
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+
+}
+
+.rectangle:hover{
+  background-color: #f6e6c8;
+  color: #c03111;
+
+}
+
+.font16{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.font18{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.friendtitle{
+  color: #f6e6c8;
+  border-bottom: 3px solid #f6e6c8;
+  margin-bottom: 3px;
+}
+
+.friendname,.friendname:visited{
+  color: #f6e6c8;
+  font-size: 16px;
+  margin: 2px;
+}
+
+.friendname:hover,.friendname:link{
+  color: #FFF;
+}
+
+
+.both{
+  height: 20px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer {
+    padding-top: 30px;
+    font-size: 13px;
+}
+
+.list-inline {
+    padding-left: 0px;
+    margin-left: -5px;
+    list-style: outside none none;
+}
+
+.footer-bottom ul > li {
+    padding: 0px;
+}
+
+.footer a {
+    color: #f6e6c8;
+}
+
+.footer-bottom ul > li + li::before {
+    padding: 0px 10px;
+    color: #f6e6c8;
+    content: "|";
+}
+
+.marquee 
+{
+  width:100%;
+  height:360px;
+  overflow:hidden;
+}
+.marquee li
+{ 
+  display:inline; 
+  float:left; 
+  margin-right:12px;
+}
+.marquee li a
+{ 
+  height:360px; 
+  display:block; 
+  float:left; 
+  text-align:center; 
+  font-size:14px;
+}
+.marquee li a:hove
+{ 
+  text-decoration:none;
+}
+.marquee li img
+{
+  width:210px; 
+  height:360px;
+}
+.marquee li em
+{
+  font-style: normal; 
+  height:24px; 
+  line-height:24px; 
+  display:block; 
+  margin-top:8px;
+}
+
+.carousel-inner > .item > img
+{
+  width:100%;
+  height:360px;
+}
+
+.carousel-indicators li {
+    background-color: #c03111;
+    border: 0px solid #c03111;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0px;
+    margin-left: -15%;
+    text-align: right;
+}
+
+
+.carousel-indicators .active {
+    background-color: #f6e6c8;
+}
+

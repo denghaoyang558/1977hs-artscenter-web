@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <title>1977画室网站后台</title>
+    <link rel="icon" href="__PUBLIC__/Uploads/img/logo.png">
+    <!-- Bootstrap core CSS -->
+    <link href="__PUBLIC__/Css/admin/bootstrap.min.css" rel="stylesheet">
+    <script src="__PUBLIC__/Js/admin/jquery.min.js"></script>
+    <script src="__PUBLIC__/Js/admin/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/Js/admin/docs.min.js"></script>
+    <script src="__PUBLIC__/Js/admin/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- Font-awesome core CSS -->
+    <link href="__PUBLIC__/Css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="__PUBLIC__/Css/admin/Homepage.css" rel="stylesheet">
+
+    <script type="text/javascript">
+        $(document).ready(function() 
+        {  
+            window.top.window.iFrameHeight();
+            window.top.window.callApplicationCount();
+        });
+
+        function callmyModalText(id){
+            $.getJSON("{:U('Question/get_answer')}?id="+id, function (data, status, xhr) {
+                window.top.window.myModalText(data);
+            });
+        }
+    </script>
+</head>
+<body>
+
+<div id="page-wrapper" >
+    <div class="row">
+        <div class="col-md-12">        
+            <h1 class="page-header">
+                招生问题
+            </h1>
+        </div>
+    </div>
+    <!-- 名单 -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12" style="margin-bottom:10px;">
+                    <div style="float:left;margin-top:-5px;">
+                        <h4>总共{$count}个问答</h4>
+                    </div>
+                    <div style="float:right;"><a href="{:U('Question/add')}" style="width:150px;"type="button" class="btn btn-primary">新 增 问 答</a></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                  <th class="col-md-1"><div align="center">序号</div></th>
+                                  <th class="col-md-6"><div align="center">问题</div></th>
+                                  <th class="col-md-1"><div align="center">答案</div></th>
+                                  <th class="col-md-2"><div align="center">排序</div></th>
+                                  <th class="col-md-2"><div align="center">操作</div></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <foreach name='question' item ='data' key='key'>
+                                <tr>
+                                    <th scope="row">
+                                        <div align="center" style="padding-top:12px;">
+                                            {$key+1}
+                                        </div>
+                                    </th>
+                                    <td>
+                                        <div align="center" style="padding-top:12px;">
+                                            {$data.title}
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div align="center">
+                                            <div style="padding-top:5px;">
+                                                <a type="button" class="btn btn-default" onclick="callmyModalText('{$data.id}')">点击查看</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div align="center">
+                                            <div style="width:200px;padding-top:5px;">
+                                                <if condition="$key eq 0"> 
+                                                    <a href="{:U('Question/sort_handle')}?id={$data.id}&type=down"class="btn btn-default"><i class="icon-angle-down"></i></a>
+                                                <elseif condition="$key eq count($question)-1"/>
+                                                    <a href="{:U('Question/sort_handle')}?id={$data.id}&type=up"class="btn btn-default"><i class="icon-angle-up"></i></a>
+                                                <else />
+                                                    <a href="{:U('Question/sort_handle')}?id={$data.id}&type=up"class="btn btn-default"><i class="icon-angle-up"></i></a>
+                                                    <a href="{:U('Question/sort_handle')}?id={$data.id}&type=down"class="btn btn-default"><i class="icon-angle-down"></i></a>
+                                                </if>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div align="center">
+                                            <div style="width:200px;padding-top:5px;">
+                                                <a type="button" class="btn btn-success" href="{:U('Question/alter')}?id={$data.id}">修 改</a>
+                                                <a type="button" class="btn btn-danger" href="{:U('Question/delete_handle')}?id={$data.id}">删 除</a>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                                </foreach>
+                            </tbody>
+                        </table>       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

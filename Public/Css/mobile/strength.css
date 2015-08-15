@@ -1,0 +1,72 @@
+ul, ol {
+    list-style-type: none;
+}
+
+i, em {
+    font-style: normal;
+}
+
+img {
+    max-width: 100%;
+}
+
+img {
+    border: medium none;
+}
+
+.indexList{margin: 0;padding: 0;/*border-top:1px solid #ccc;border-bottom:1px solid #ccc;*/padding:1% 0 1%;}
+.indexList li{/*padding:1% 0 2%;*/margin:1%;position:relative;}
+.indexList li a{display:block;overflow:hidden;position:relative;min-height: 130px;}
+.indexList li a>img{width: 45%;height:100%;display: block;float:right;}
+.indexList li a div{width:48%;float:left;padding:3% 3% 0 3%;position:relative;}
+.indexList li a div>img{width:25px;height:25px;margin-top:10px;float:left;opacity:0.4;}
+.indexList li a h2{font-size: 15px;color: #fff;overflow: hidden;white-space: normal;text-overflow: ellipsis;line-height:1.5;width:95%;margin-bottom:5px;}
+.indexList li a p{font-size:12px;color: #fff;line-height:1.5;width:95%;}
+.indexList li:nth-child(2n) a div{float:left;}
+.indexList li:nth-child(2n) a>img{float:left;}
+.indexList li:nth-child(1) a,.indexList li:nth-child(7) a{background:#bb1d4b}
+.indexList li:nth-child(2) a,.indexList li:nth-child(8) a{background:#d24123}
+.indexList li:nth-child(3) a,.indexList li:nth-child(9) a{background:#e29f1a}
+.indexList li:nth-child(4) a,.indexList li:nth-child(10) a{background:#008e19}
+.indexList li:nth-child(5) a,.indexList li:nth-child(11) a{background:#a400a9}
+.indexList li:nth-child(6) a,.indexList li:nth-child(12) a{background:#024f95}
+.indexList li a div i{display:block;border-width: 8px;position:absolute;top:50px;
+border-style: dashed dashed dashed solid;}
+
+.table_head{
+    margin-top:1%; 
+    height: 30px;
+    width:98%;
+    background-color:  #C03111;
+    font-size: 20px;
+    margin-left:1%;
+    margin-right:1%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #FAEFD1;
+    border: 1px solid #C03111;
+}
+
+.table_body{
+    border: 1px solid #C03111;
+    margin-left:1%;
+    margin-right:1%;
+    width:96%;
+    padding:1%;
+    position: relative;
+    word-wrap:break-word;
+    margin-bottom:1%;
+}
+
+.table_body p{
+    font-size: 14px;
+    line-height: 1.5;
+    color:#333;
+}
+
+.panel_img{
+    padding-top:1%;
+    padding-left:1%;
+    padding-right:1%;
+    padding-bottom: 0%;
+}

@@ -1,0 +1,22 @@
+.table-c{
+	margin:1%;
+}
+
+.table-c table{
+	border-right:3px solid #DDD;border-bottom:3px solid #DDD;width:100%;
+}
+.table-c table td{border-left:3px solid #DDD;border-top:3px solid #DDD}
+
+.question , .answer{
+	color:#5C5E58;
+}
+
+.question{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.answer{
+	font-size: 14px;
+	text-decoration: underline;
+}

@@ -1,0 +1,61 @@
+#ui_list .item {
+    display: block;
+    background-image: linear-gradient(#FFF, #F1F1F1);
+    border-bottom: 1px solid #E6E0CD;
+    border-top: 1px solid #FEFDF9;
+    position: relative;
+    padding: 4% 1%;
+}
+
+#ui_list .item img {
+    width: 13%;
+    max-width: 56px;
+    border-radius: 3px;
+    float: left;
+    margin-right: 2%;
+}
+
+img {
+    border: medium none;
+}
+
+#ui_list .item .act {
+    float: left;
+    width: 83%;
+}
+
+#ui_list .item h2 {
+    font-size: 16px;
+    color: #2F2F2F;
+    font-weight: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#ui_list .item .info {
+    line-height: 20px;
+    color: #9C9C9C;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 88%;
+    margin-top:1%;
+}
+
+#ui_list .item:hover {
+	background: #fff;
+}
+
+#content{
+	width:100%;
+}
+
+.item i {
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 40%;
+}

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="">
+    <title>1977画室网站后台</title>
+    <link rel="icon" href="__PUBLIC__/Uploads/img/logo.png">
+    <!-- Bootstrap core CSS -->
+    <link href="__PUBLIC__/Css/admin/bootstrap.min.css" rel="stylesheet">
+    <script src="__PUBLIC__/Js/admin/jquery.min.js"></script>
+    <script src="__PUBLIC__/Js/admin/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/Js/admin/docs.min.js"></script>
+    <script src="__PUBLIC__/Js/admin/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- Font-awesome core CSS -->
+    <link href="__PUBLIC__/Css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <link href="__PUBLIC__/Css/admin/Webinfo.css" rel="stylesheet">
+
+    <script type="text/javascript">  
+        $(document).ready(function() 
+        {  
+            window.top.window.iFrameHeight();
+            window.top.window.callApplicationCount();
+        });
+
+        function callmyModal_1(u){
+            window.top.window.myModalImage(u);
+        }
+    </script>
+    
+</head>
+<body>
+
+<div id="page-wrapper" >
+    <div class="row">
+        <div class="col-md-12">        
+            <h1 class="page-header">
+                作品展示
+            </h1>
+        </div>
+    </div>
+    <!-- 素描 -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <i class="icon-hand-right"></i>
+                    素 描
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-8" style="padding-top:8px;">
+                            <p>作品展示之素描。</p>
+                        </div>
+                        <div class="col-md-4">
+                            <div style="float:right;"><a href="{:U('Works/add_sumiao')}" style="width:100px;"type="button" class="btn btn-primary">添 加</a></div>
+                        </div>
+                    </div>
+                </div>  
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                          <th class="col-md-2"><div align="center">序号</div></th>
+                          <th class="col-md-3"><div align="center">图片</div></th>
+                          <th class="col-md-3"><div align="center">排序</div></th>
+                          <th class="col-md-2"><div align="center">操作</div></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <foreach name='sumiao' item ='data' key='key'>
+                        <tr>
+                            <th scope="row">
+                                <div align="center">
+                                    <div style="padding-top:15px;">{$key+1}</div>
+                                </div>
+                            </th>
+                            <td>
+                                <div align="center">
+                                    <a href="#" onclick="callmyModal_1('__ROOT__{$data.pic_adr}');">
+                                        <img src="__ROOT__{$data.pic_adr}" class="img-rounded" style="height:50px;">
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div align="center">
+                                    <div style="width:200px;padding-top:6px;">
+                                        <if condition="$key eq 0"> 
+                                            <a href="{:U('Works/sort_sumiao_handle')}?id={$data.id}&type=down"class="btn btn-default"><i class="icon-angle-down"></i></a>
+                                        <elseif condition="$key eq count($sumiao)-1"/>
+                                            <a href="{:U('Works/sort_sumiao_handle')}?id={$data.id}&type=up"class="btn btn-default"><i class="icon-angle-up"></i></a>
+                                        <else />
+                                            <a href="{:U('Works/sort_sumiao_handle')}?id={$data.id}&type=up"class="btn btn-default"><i class="icon-angle-up"></i></a>
+                                            <a href="{:U('Works/sort_sumiao_handle')}?id={$data.id}&type=down"class="btn btn-default"><i class="icon-angle-down"></i></a>
+                                        </if>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div align="center">
+                                    <div style="width:200px;padding-top:10px;">
+                                        <a href="{:U('Works/alter_sumiao')}?id={$data.id}" type="button" class="btn btn-success">修 改</a>
+                                        <a href="{:U('Works/delete_sumiao_handle')}?id={$data.id}" type="button" class="btn btn-danger">删 除</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                </table>       
+            </div>
+        </div>
+    </div>
+    <!-- 色彩 -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <i class="icon-hand-right"></i>
+                    色 彩
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-8" style="padding-top:8px;">
+                            <p>作品展示之色彩。</p>
+                        </div>
+                        <div class="col-md-4">
+                            <div style="float:right;"><a href="{:U('Works/add_secai')}" style="width:100px;"type="button" class="btn btn-primary">添 加</a></div>
+                        </div>
+                    </div>
+                </div>  
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                          <th class="col-md-2"><div align="center">序号</div></th>
+                          <th class="col-md-3"><div align="center">图片</div></th>
+                          <th class="col-md-3"><div align="center">排序</div></th>
+                          <th class="col-md-2"><div align="center">操作</div></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <foreach name='secai' item ='data' key='key'>
+                        <tr>
+                            <th scope="row">
+                                <div align="center">
+                                    <div style="padding-top:15px;">{$key+1}</div>
+                                </div>
+                            </th>
+                            <td>
+                                <div align="center">
+                                    <a href="#" onclick="callmyModal_1('__ROOT__{$data.pic_adr}');">
+                                        <img src="__ROOT__{$data.pic_adr}" class="img-rounded" style="height:50px;">
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div align="center">
+                                    <div style="width:200px;padding-top:6px;">
+                                        <if condition="$key eq 0"> 
+                                            <a href="{:U('Works/sort_secai_handle')}?id={$data.id}&type=down"class="btn btn-default"><i class="icon-angle-down"></i></a>
+                                        <elseif condition="$key eq count($secai)-1"/>
+                                            <a href="{:U('Works/sort_secai_handle')}?id={$data.id}&type=up"class="btn btn-default"><i class="icon-angle-up"></i></a>
+                                        <else />
+                                            <a href="{:U('Works/sort_secai_handle')}?id={$data.id}&type=up"class="btn btn-default"><i class="icon-angle-up"></i></a>
+                                            <a href="{:U('Works/sort_secai_handle')}?id={$data.id}&type=down"class="btn btn-default"><i class="icon-angle-down"></i></a>
+                                        </if>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div align="center">
+                                    <div style="width:200px;padding-top:10px;">
+                                        <a href="{:U('Works/alter_secai')}?id={$data.id}" type="button" class="btn btn-success">修 改</a>
+                                        <a href="{:U('Works/delete_secai_handle')}?id={$data.id}" type="button" class="btn btn-danger">删 除</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                </table>       
+            </div>
+        </div>
+    </div>
+    <!-- 速写 -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <i class="icon-hand-right"></i>
+                    速 写
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-8" style="padding-top:8px;">
+                            <p>作品展示之速写。</p>
+                        </div>
+                        <div class="col-md-4">
+                            <div style="float:right;"><a href="{:U('Works/add_suxie')}" style="width:100px;"type="button" class="btn btn-primary">添 加</a></div>
+                        </div>
+                    </div>
+                </div>  
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                          <th class="col-md-2"><div align="center">序号</div></th>
+                          <th class="col-md-3"><div align="center">图片</div></th>
+                          <th class="col-md-3"><div align="center">排序</div></th>
+                          <th class="col-md-2"><div align="center">操作</div></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <foreach name='suxie' item ='data' key='key'>
+                        <tr>
+                            <th scope="row">
+                                <div align="center">
+                                    <div style="padding-top:15px;">{$key+1}</div>
+                                </div>
+                            </th>
+                            <td>
+                                <div align="center">
+                                    <a href="#" onclick="callmyModal_1('__ROOT__{$data.pic_adr}');">
+                                        <img src="__ROOT__{$data.pic_adr}" class="img-rounded" style="height:50px;">
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div align="center">
+                                    <div style="width:200px;padding-top:6px;">
+                                        <if condition="$key eq 0"> 
+                                            <a href="{:U('Works/sort_suxie_handle')}?id={$data.id}&type=down"class="btn btn-default"><i class="icon-angle-down"></i></a>
+                                        <elseif condition="$key eq count($suxie)-1"/>
+                                            <a href="{:U('Works/sort_suxie_handle')}?id={$data.id}&type=up"class="btn btn-default"><i class="icon-angle-up"></i></a>
+                                        <else />
+                                            <a href="{:U('Works/sort_suxie_handle')}?id={$data.id}&type=up"class="btn btn-default"><i class="icon-angle-up"></i></a>
+                                            <a href="{:U('Works/sort_suxie_handle')}?id={$data.id}&type=down"class="btn btn-default"><i class="icon-angle-down"></i></a>
+                                        </if>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div align="center">
+                                    <div style="width:200px;padding-top:10px;">
+                                        <a href="{:U('Works/alter_suxie')}?id={$data.id}" type="button" class="btn btn-success">修 改</a>
+                                        <a href="{:U('Works/delete_suxie_handle')}?id={$data.id}" type="button" class="btn btn-danger">删 除</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                </table>       
+            </div>
+        </div>
+    </div>
+    <!-- 学生作品 -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <i class="icon-hand-right"></i>
+                    学生作品
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-8" style="padding-top:8px;">
+                            <p>作品展示之学生作品。</p>
+                        </div>
+                        <div class="col-md-4">
+                            <div style="float:right;"><a href="{:U('Works/add_student')}" style="width:100px;"type="button" class="btn btn-primary">添 加</a></div>
+                        </div>
+                    </div>
+                </div>  
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                          <th class="col-md-2"><div align="center">序号</div></th>
+                          <th class="col-md-3"><div align="center">图片</div></th>
+                          <th class="col-md-3"><div align="center">排序</div></th>
+                          <th class="col-md-2"><div align="center">操作</div></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <foreach name='student' item ='data' key='key'>
+                        <tr>
+                            <th scope="row">
+                                <div align="center">
+                                    <div style="padding-top:15px;">{$key+1}</div>
+                                </div>
+                            </th>
+                            <td>
+                                <div align="center">
+                                    <a href="#" onclick="callmyModal_1('__ROOT__{$data.pic_adr}');">
+                                        <img src="__ROOT__{$data.pic_adr}" class="img-rounded" style="height:50px;">
+                                    </a>
+                                </div>
+                            </td>
+                            <td>
+                                <div align="center">
+                                    <div style="width:200px;padding-top:6px;">
+                                        <if condition="$key eq 0"> 
+                                            <a href="{:U('Works/sort_student_handle')}?id={$data.id}&type=down"class="btn btn-default"><i class="icon-angle-down"></i></a>
+                                        <elseif condition="$key eq count($student)-1"/>
+                                            <a href="{:U('Works/sort_student_handle')}?id={$data.id}&type=up"class="btn btn-default"><i class="icon-angle-up"></i></a>
+                                        <else />
+                                            <a href="{:U('Works/sort_student_handle')}?id={$data.id}&type=up"class="btn btn-default"><i class="icon-angle-up"></i></a>
+                                            <a href="{:U('Works/sort_student_handle')}?id={$data.id}&type=down"class="btn btn-default"><i class="icon-angle-down"></i></a>
+                                        </if>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div align="center">
+                                    <div style="width:200px;padding-top:10px;">
+                                        <a href="{:U('Works/alter_student')}?id={$data.id}" type="button" class="btn btn-success">修 改</a>
+                                        <a href="{:U('Works/delete_student_handle')}?id={$data.id}" type="button" class="btn btn-danger">删 除</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </foreach>
+                    </tbody>
+                </table>       
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
